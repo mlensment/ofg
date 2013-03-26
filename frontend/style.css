@@ -1,0 +1,260 @@
+@import url(http://fonts.googleapis.com/css?family=Signika:300|Lilita+One);
+/* RESET CSS */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* RESET CSS END */
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Signika', sans-serif;
+  color: #363636;
+  background: #f7f7f7;
+  height: 100%;
+  box-shadow: 0 0 250px rgba(142, 194, 218, 0.3) inset;
+}
+
+a {
+  color: #de3d3d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #363636;
+}
+
+h2 {
+  color: #de3d3d;
+  font-family: 'Signika', sans-serif;
+  font-size: 18px;
+}
+
+#header {
+  width: 100%;
+  height: 146px;
+}
+
+#header-data {
+  width: 960px;
+  margin: auto;
+}
+
+#one-top {
+  position: relative;
+  z-index: 2;
+  background: url('images/oneTop.png') no-repeat;
+  float: right;
+  width: 126px;
+  height: 127px;
+}
+
+#menu-bar {
+  position: relative;
+  z-index: 1;
+  background: white;
+  height: 55px;
+  width: 925px;
+  float: left;
+  margin-top: -56px;
+  margin-right: 35px;
+  -moz-box-shadow: 0 0 2px #cfd4d6;
+  -webkit-box-shadow: 0 0 2px #cfd4d6;
+  box-shadow: 0 0 2px #cfd4d6;
+  border-radius: 2px;
+}
+
+#one-helper {
+  float: right;
+  width: 34px;
+  height: 39px;
+  background: white;
+  margin-top: 16px;
+  margin-right: -34px;
+  -moz-box-shadow: 0 0 2px #cfd4d6;
+  -webkit-box-shadow: 0 0 2px #cfd4d6;
+  box-shadow: 0 0 2px #cfd4d6;
+  border-radius: 2px;
+}
+
+#logo {
+  float: right;
+  margin-top: 83px;
+  width: 245px;
+  font-family: 'Lilita One', cursive;
+  font-size: 35px;
+  color: #de3d3d;
+  text-shadow: 1px 1px 0px #e5e5ee;
+  
+}
+
+.menu-item {
+  margin-top: 9px;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  border-right: 1px dashed #cccccc;
+  padding: 0 10px 0 10px;
+}
+
+.menu-item-last {
+  border-right: none;
+}
+
+#container {
+  width: 960px;
+  margin: auto;
+  background: white;
+  box-shadow: 0 0 2px #cfd4d6;
+  border-radius: 2px;
+}
+
+#content {
+   padding: 10px 10px 10px 10px;
+}
+
+#content p {
+  margin: 10px 0 10px 0;
+  line-height: 1.3em;
+}
+
+#footer {
+  padding: 0 10px 0 10px;
+  margin-top: 10px;
+  color: #afafaf;
+  font-size: 12px;
+}
+
+#left{
+  float: left;
+}
+
+#right {
+  float: right;
+}
+
+pre {
+    background-color: #F8F8F8;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    font-size: 13px;
+    line-height: 19px;
+    overflow: auto;
+    padding: 6px 10px;
+}
+
+.code {
+    background-color: #F8F8F8;
+    border: 1px solid #EAEAEA;
+    border-radius: 3px 3px 3px 3px;
+    margin: 0 2px;
+    padding: 0 5px;
+    white-space: nowrap;
+    font-family: Courier;
+    font-size: 13px; 
+}
+
+#html5 {
+  float: right;
+  display: block;
+  width: 15px;
+  height: 20px;
+  background: url('images/HTML5_SupportingElements.png');
+  background-position:96px 41px;
+  margin-left: -10px;
+}

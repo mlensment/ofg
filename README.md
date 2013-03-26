@@ -1,0 +1,1 @@
+One File Gallery (OFG) is a neat little tool to share pictures with your friends. No configuration needed whatsoever. 
